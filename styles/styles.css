@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: #03a3df;
+}
+footer {
+  background-image: url("../photos/footerImage.jpg");
+  background-color: #1b447f;
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  color: #ecb722;
+}
+/*
+nav a:active {
+  color: #ecb722;
+}
+not working
+*/
