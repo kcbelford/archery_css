@@ -9,11 +9,17 @@ footer {
   background-color: #1b447f;
   color: white;
 }
+.header-logo {
+  padding: 1.5rem;
+}
 ul {
   list-style-type: none;
 }
 li {
   padding: 0rem 2rem;
+}
+nav {
+  margin: auto;
 }
 nav a {
   text-decoration: none;
@@ -31,10 +37,29 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 body {
   margin: auto;
+  font-family: Arial;
+  font-size: 17px;
+}
+h1 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 40px;
+}
+h2 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 24px;
+}
+h3 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 17px;
 }
 .grid-container {
   display: grid;
