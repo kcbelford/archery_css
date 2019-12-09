@@ -47,6 +47,10 @@ nav a:visited {
 nav a:hover {
   color: #ecb722;
 }
+.about-p {
+  font-size: 30px;
+  color: #03a3df;
+}
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -79,9 +83,19 @@ h3 {
   font-family: Arial;
   font-weight: bold;
   font-size: 17px;
+  color: #03a3df;
 }
 main {
   color: #444444;
+  line-height: 1.5;
+  padding-bottom: 4rem;
+}
+.bio-line {
+  border-bottom: 1px solid #03a3df;
+  padding-bottom: 2rem;
+}
+.instructor-img {
+  padding-top: 2rem;
 }
 .grid-container {
   display: grid;
@@ -95,14 +109,20 @@ main {
 .grid-item2 {
   grid-column: 2 / 6;
   grid-row: 2 / 6;
+  border-top: 18px solid #03a3df;
+  color: #03a3df;
 }
 .grid-item3 {
   grid-column: 7 / 11;
   grid-row: 2 / 6;
+  border-top: 18px solid #03a3df;
+  color: #03a3df;
 }
 .grid-item4 {
-  grid-column: 4 / 8;
+  grid-column: 2 / 6;
   grid-row: 8 / 12;
+  border-top: 18px solid #03a3df;
+  color: #03a3df;
 }
 .grid-item5 {
   grid-column: 2 / 6;
@@ -111,4 +131,10 @@ main {
 .grid-item6 {
   grid-column: 7 / 11;
   grid-row: 1 / 12;
+}
+.grid-item7 {
+  grid-column: 7 / 11;
+  grid-row: 8 / 12;
+  border-top: 18px solid #03a3df;
+  color: #03a3df;
 }
