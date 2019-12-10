@@ -90,6 +90,9 @@ main {
   line-height: 1.5;
   padding-bottom: 4rem;
 }
+video {
+  width: 100%;
+}
 .bio-line {
   border-bottom: 1px solid #03a3df;
   padding-bottom: 2rem;
