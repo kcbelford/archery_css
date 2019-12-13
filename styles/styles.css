@@ -16,6 +16,9 @@ footer {
 }
 .fab {
   font-size: 1.5rem;
+}
+.fa-facebook-f,
+.fa-instagram {
   padding-left: 2rem;
 }
 .header-logo {
