@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 header {
-  background-color: #03a3df;
+  background-color: #039FD8;
 }
 footer {
   background-image: url("../photos/footerImage.jpg");
@@ -52,7 +52,7 @@ nav a:hover {
 }
 .about-p {
   font-size: 30px;
-  color: #03a3df;
+  color: #039FD8;
 }
 .flex-container {
   display: flex;
@@ -70,7 +70,7 @@ nav a:hover {
 body {
   margin: auto;
   font-family: Arial;
-  font-size: 17px;
+  font-size: 18.66px;
 }
 h1 {
   font-family: Arial;
@@ -82,22 +82,40 @@ h2 {
   font-weight: bold;
   font-size: 24px;
 }
-h3 {
+.services {
   font-family: Arial;
   font-weight: bold;
   font-size: 17px;
-  color: #03a3df;
+  color: #039FD8;
 }
 main {
   color: #444444;
   line-height: 1.5;
   padding-bottom: 4rem;
 }
+#skiptocontent a{
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  padding: .5rem 1rem .5rem 1rem;
+  transition: top .5s ease-in;
+  color: white;
+  background-color: #1b447f;
+}
+#skiptocontent a:focus {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: .5rem 1rem .5rem 1rem;
+  transition: top .1s ease-out;
+  color: white;
+  background-color: #1b447f;
+}
 video {
   width: 100%;
 }
 .bio-line {
-  border-bottom: 1px solid #03a3df;
+  border-bottom: 1px solid #039FD8;
   padding-bottom: 2rem;
 }
 .instructor-img {
@@ -115,19 +133,19 @@ video {
 .grid-item2 {
   grid-column: 2 / 6;
   grid-row: 2 / 6;
-  border-top: 18px solid #03a3df;
+  border-top: 18px solid #039FD8;
   color: #03a3df;
 }
 .grid-item3 {
   grid-column: 7 / 11;
   grid-row: 2 / 6;
-  border-top: 18px solid #03a3df;
+  border-top: 18px solid #039FD8;
   color: #03a3df;
 }
 .grid-item4 {
   grid-column: 2 / 6;
   grid-row: 8 / 12;
-  border-top: 18px solid #03a3df;
+  border-top: 18px solid #039FD8;
   color: #03a3df;
 }
 .grid-item5 {
@@ -141,6 +159,6 @@ video {
 .grid-item7 {
   grid-column: 7 / 11;
   grid-row: 8 / 12;
-  border-top: 18px solid #03a3df;
-  color: #03a3df;
+  border-top: 18px solid #039FD8;
+  color: #039FD8;
 }
