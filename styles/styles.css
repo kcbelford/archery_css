@@ -16,6 +16,16 @@ footer {
 }
 .fab {
   font-size: 1.5rem;
+  color: white;
+}
+.social-links a{
+  text-decoration: none;
+}
+.fab:visited {
+  color: white;
+}
+.fab:hover {
+  color: #ecb722;
 }
 .fa-facebook-f,
 .fa-instagram {
